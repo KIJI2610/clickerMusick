@@ -1,0 +1,49 @@
+.game-container{
+    height: 90%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+.bar{
+    height: 100%;
+    width: 33%;
+    background-color: aqua;
+    outline: 2px solid black;
+}
+.center-bar{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-bar-container{
+    user-select: none;
+    background-color: red;
+    text-align: center;
+}
+.count{
+    font-size: 64pt;
+}
+.left-bar{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.left-bar-container{
+    user-select: none;
+    background-color: red;
+    text-align: center;
+    display: grid;
+}
+.bonus{
+    width: 250px;
+    height: 50px;
+}
+.bonus-container{
+    margin-bottom: 50px;
+}
+.right-bar{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
