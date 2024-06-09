@@ -6,3 +6,4 @@ function tap(){
     counNum += UpCount
     count.textContent = counNum
 }
+console.log('123')
