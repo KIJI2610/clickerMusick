@@ -7,3 +7,4 @@ function tap(){
     count.textContent = counNum
 }
 console.log('123')
+console.log('testConsole')
