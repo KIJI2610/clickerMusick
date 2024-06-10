@@ -27,37 +27,37 @@
 
 
                     <div class="bonus-container">
-                        <button class="bonus">click +1</button><br>
+                        <button class="bonus" onclick="BuyBonus('+1')">click +1</button><br>
+                        <code class="bonus-price" id="clicck1-price">sada</code>
+                    </div>
+
+
+                    <div class="bonus-container">
+                        <button class="bonus" onclick="BuyBonus('+1auto')">auto click +1</button><br>
+                        <code class="bonus-price" id="auto1-price">sada</code>
+                    </div>
+
+
+                    <div class="bonus-container">
+                        <button class="bonus" onclick="BuyBonus('+2')">click +2</button><br>
+                        <code class="bonus-price" id="clicck2-price">sada</code>
+                    </div>
+
+
+                    <div class="bonus-container">
+                        <button class="bonus" onclick="BuyBonus('+2auto')">auto click +2</button><br>
+                        <code class="bonus-price" id="auto2-price">sada</code>
+                    </div>
+
+
+                    <div class="bonus-container">
+                        <button class="bonus" onclick="BuyBonus('+3')">click +3</button><br>
                         <code class="bonus-price" id="">sada</code>
                     </div>
 
 
                     <div class="bonus-container">
-                        <button class="bonus">auto click +1</button><br>
-                        <code class="bonus-price" id="">sada</code>
-                    </div>
-
-
-                    <div class="bonus-container">
-                        <button class="bonus">click +2</button><br>
-                        <code class="bonus-price" id="">sada</code>
-                    </div>
-
-
-                    <div class="bonus-container">
-                        <button class="bonus">auto click +2</button><br>
-                        <code class="bonus-price" id="">sada</code>
-                    </div>
-
-
-                    <div class="bonus-container">
-                        <button class="bonus">click +1</button><br>
-                        <code class="bonus-price" id="">sada</code>
-                    </div>
-
-
-                    <div class="bonus-container">
-                        <button class="bonus">auto click +1</button><br>
+                        <button class="bonus" onclick="BuyBonus('+3auto')">auto click +3</button><br>
                         <code class="bonus-price" id="">sada</code>
                     </div>
 
@@ -68,7 +68,16 @@
 
 
             <div class="center-bar bar"  onclick="tap()">
+                
                 <div class="center-bar-container">
+                    <div class="shkala-container">
+                        <div class="shkala">
+                            <div class="exp"></div>
+                        </div>
+                        <div class="experience">
+                            <code>0</code>
+                        </div>
+                    </div>
                     <h1>click click click</h1>
                     <h1 id="count" class="count">0</h1>
                 </div>
@@ -80,33 +89,33 @@
 
                 <div class="left-bar-container">
                     <div class="bonus-container">
-                        <button class="bonus">radio</button><br>
+                        <button class="bonus">X2</button><br>
                         <code class="bonus-price" id="">sada</code>
                     </div>
 
                     <div class="bonus-container">
-                        <button class="bonus">radio</button><br>
+                        <button class="bonus">X3</button><br>
                         <code class="bonus-price" id="">sada</code>
                     </div>
 
                     <div class="bonus-container">
-                        <button class="bonus">radio</button><br>
+                        <button class="bonus">X4</button><br>
                         <code class="bonus-price" id="">sada</code>
                     </div>
 
                     <div class="bonus-container">
-                        <button class="bonus">radio</button><br>
+                        <button class="bonus">X5</button><br>
                         <code class="bonus-price" id="">sada</code>
                     </div>
 
                     <div class="bonus-container">
-                        <button class="bonus">radio</button><br>
+                        <button class="bonus">X6</button><br>
                         <code class="bonus-price" id="">sada</code>
                     </div>
 
                     <div class="bonus-container">
-                        <button class="bonus">radio</button><br>
-                        <code class="bonus-price" id="">выффф</code>
+                        <button class="bonus">X7</button><br>
+                        <code class="bonus-price" id="">выффф <code>$</code></code>
                     </div>
                 </div>
                 
@@ -118,6 +127,7 @@
           </div>
 
     </div>
+    <script src="price.js"></script>
     <script src="main.js"></script>
 </body>
 </html>

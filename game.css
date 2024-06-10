@@ -1,5 +1,3 @@
-/* */
-
 .game-container{
     height: 90%;
     background-color: red;
@@ -48,4 +46,30 @@
     display: grid;
     justify-content: center;
     align-items: center;
+}
+.shkala{
+    width: 90%;
+    height: 15px;
+    background-color: rgb(113, 113, 113);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right:10px ;
+    border-radius: 20px;
+}
+.exp{
+    height: 30%;
+    width: 100%;
+    background: rgb(63,94,251);
+    background: linear-gradient(285deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);;
+    border-radius: 20px;
+}
+.shkala-container{
+    background-color: red;
+    width: 100%;
+    display: grid;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+    font-size: 16pt;
 }

@@ -1,10 +1,20 @@
 const count = document.getElementById('count')
-let counNum = 0
+const fon = document.getElementById('fon')
+let countNum = 0
 let UpCount = 1
 
 function tap(){
-    counNum += UpCount
-    count.textContent = counNum
+    countNum += UpCount
+    count.textContent = countNum
 }
-console.log('123')
-console.log('testConsole')
+
+function BuyBonus(bonus){
+    switch (bonus) {
+        case '+1':
+            
+            break;
+    
+        default:
+            break;
+    }
+}
