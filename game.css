@@ -7,7 +7,7 @@
 .bar{
     height: 100%;
     width: 33%;
-    background-color: aqua;
+    background-color: rgb(131, 174, 174);
     outline: 2px solid black;
 }
 .center-bar{
@@ -18,7 +18,7 @@
 
 .center-bar-container{
     user-select: none;
-    background-color: red;
+    background-color: rgb(153, 99, 99);
     text-align: center;
 }
 .count{
@@ -31,7 +31,7 @@
 }
 .left-bar-container{
     user-select: none;
-    background-color: red;
+    background-color: rgb(173, 118, 118);
     text-align: center;
     display: grid;
 }
@@ -65,7 +65,6 @@
     border-radius: 20px;
 }
 .shkala-container{
-    background-color: red;
     width: 100%;
     display: grid;
     text-align: center;

@@ -7,6 +7,7 @@ let price = {
     clickAuto3: (localStorage.getItem('clickAuto3') === null)?(2500):(Number(localStorage.getItem('clickAuto3'))),
 }
 
+
 const clicck1_price = document.getElementById('clicck1-price')
 const clicck2_price = document.getElementById('clicck2-price')
 const clicck3_price = document.getElementById('clicck3-price')
