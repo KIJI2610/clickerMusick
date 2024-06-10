@@ -3,12 +3,18 @@ const count = document.getElementById('count')
 const fon = document.getElementById('fon')
 let countNum = (localStorage.getItem('countNum') === null)?(0):Number(localStorage.getItem('countNum'))
 let UpCount = (localStorage.getItem('UpCount') === null)?(10):Number(localStorage.getItem('UpCount'))
+let UpCountAuto = (localStorage.getItem('UpCountAuto') === null)?(0):Number(localStorage.getItem('UpCountAuto'))
+
 const noMoney = 'Не достаточно средств'
 
 function tap(){
     countNum += UpCount
     localStorage.setItem('countNum', countNum)
     count.textContent = countNum
+}
+
+function autoTap(){
+
 }
 
 function BuyBonus(bonus){
@@ -26,7 +32,9 @@ function BuyBonus(bonus){
             break;
         
         case '+1auto':
-            
+            if(countNum >= price.clickAuto1){
+                countNum -= price.clickAuto1; count.clickAuto1 = countNum
+            }
             break;
         default:
             break;
