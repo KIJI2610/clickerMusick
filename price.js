@@ -4,7 +4,7 @@ let price = {
     clickPlus2: (localStorage.getItem('clickPlus2') === null)?(600):(Number(localStorage.getItem('clickPlus2'))),
     clickAuto2: (localStorage.getItem('clickAuto2') === null)?(1000):(Number(localStorage.getItem('clickAuto2'))),
     clickPlus3: (localStorage.getItem('clickPlus3') === null)?(2500):(Number(localStorage.getItem('clickPlus3'))),
-    clickAuto3: (localStorage.getItem('clickAuto3') === null)?(2500):(Number(localStorage.getItem('clickAuto3'))),
+    clickAuto3: (localStorage.getItem('clickAuto3') === null)?(5000):(Number(localStorage.getItem('clickAuto3'))),
 }
 
 
