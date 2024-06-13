@@ -42,4 +42,9 @@ h1, h2{
   font-weight: 1000;
   font-style: normal;
   user-select: none;
+  color: rgba(230, 183, 255, 0.9);
+  box-shadow: 10px;
+}
+code{
+  color: aliceblue;
 }
