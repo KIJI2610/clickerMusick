@@ -1,21 +1,27 @@
 const fon = document.getElementById('fon')
 const center_bar = document.getElementById('center-bar')
+const edge_bar = document.querySelectorAll('.edge-bar')
+const container = document.querySelector('.container')
 let strim = false
 fon.pause()
 
+setInterval(() => {
+    if(!strim){
+        fon.pause()
+        edge_bar.forEach(element => element.style.backgroundColor = 'rgba(10, 90, 200, 0.1)')
+        container.style.backgroundColor = 'rgba(0, 0, 0, 1)'
+    }
+    else{
+        fon.play()
+        container.style.backgroundColor = 'rgba(0, 0, 0, 0)'
+        strim = false
+    }
+},1500)
+
 
 center_bar.addEventListener('click', () => {
-    let time = new Date().getDate()
-    if(strim === false){
-        fon.play()
-        strim = true
-    }
-    setTimeout(() => {
-
-        let new_time = new Date().getTime()
-        if(new_time - time > 1000){
-            fon.pause()
-            strim = false
-        }   
-    },1000)
+    edge_bar.forEach(element => element.style.backgroundColor = 'rgba(100, 100, 200, 0.3)')
+    strim = true
+    fon.play()
 })
+

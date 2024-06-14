@@ -6,8 +6,14 @@
 .bar{
     height: 100%;
     width: 33%;
-    background-color: rgba(0, 0, 0, 0.2);
+
 }
+
+.edge-bar{
+    background-color: rgba(10, 90, 200, 0.1);
+    transition: 1s;
+} 
+
 .center-bar{
     display: grid;
     justify-content: center;
@@ -45,7 +51,10 @@
     border: none;
     outline: none;
     transition: 0.2s;
-} .bonus:hover{background-color: rgba(151, 100, 244, 0.5);}
+} 
+.bonus:hover{background-color: rgba(151, 100, 244, 0.5);}
+.bonus:active{background-color:rgba(151, 100, 244, 0.9);}
+
 
 .bonus-container{
     margin-bottom: 50px;
