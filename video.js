@@ -7,9 +7,11 @@ fon.pause()
 
 setInterval(() => {
     if(!strim){
-        fon.pause()
         edge_bar.forEach(element => element.style.backgroundColor = 'rgba(10, 90, 200, 0.1)')
         container.style.backgroundColor = 'rgba(0, 0, 0, 1)'
+        setTimeout(() => {
+            fon.pause()
+        },1050)
     }
     else{
         fon.play()
