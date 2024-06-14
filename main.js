@@ -1,7 +1,7 @@
 const count = document.getElementById('count')
 
 
-const fon = document.getElementById('fon')
+
 let countNum = (localStorage.getItem('countNum') === null)?(0):Number(localStorage.getItem('countNum'))
 let UpCount = (localStorage.getItem('UpCount') === null)?(10):Number(localStorage.getItem('UpCount'))
 let UpCountAuto = (localStorage.getItem('UpCountAuto') === null)?(0):Number(localStorage.getItem('UpCountAuto'))
