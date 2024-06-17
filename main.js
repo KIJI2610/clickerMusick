@@ -116,8 +116,3 @@ function BuyBonus(bonus){
             break;
     }
 }
-
-let lvl = (localStorage.getItem('lvl') === null)?(0):(localStorage.getItem('lvl'))
-function experienceUp(){
-
-}

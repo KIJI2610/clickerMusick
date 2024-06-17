@@ -15,11 +15,10 @@ setInterval(() => {
     }
     else{
         fon.play()
-        container.style.backgroundColor = 'rgba(0, 0, 0, 0)'
+        container.style.backgroundColor = 'rgba(0, 0, 0, 0.4)'
         strim = false
     }
 },1500)
-
 
 center_bar.addEventListener('click', () => {
     edge_bar.forEach(element => element.style.backgroundColor = 'rgba(100, 100, 200, 0.3)')

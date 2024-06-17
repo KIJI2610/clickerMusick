@@ -64,7 +64,7 @@
     justify-content: center;
     align-items: center;
 }
-/* .shkala{
+.shkala{
     width: 90%;
     height: 15px;
     background-color: rgb(113, 113, 113);
@@ -73,10 +73,10 @@
     padding-left: 10px;
     padding-right:10px ;
     border-radius: 20px;
-} */
+}
 .exp{
     height: 30%;
-    width: 100%;
+    width: 0%;
     background: rgb(63,94,251);
     background: linear-gradient(285deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);;
     border-radius: 20px;
