@@ -44,7 +44,7 @@ h1, h2{
   font-style: normal;
   user-select: none;
   color: rgba(230, 183, 255, 0.9);
-  box-shadow: 10px;
+  text-shadow: 3px 2px 5px;
 }
 code{
   color: aliceblue;

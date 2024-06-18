@@ -5,5 +5,6 @@ clicck3_price.textContent = price.clickPlus3
 auto1_price.textContent = price.clickAuto1
 auto2_price.textContent = price.clickAuto2
 auto3_price.textContent = price.clickAuto3
+exp_num.textContent = experience_num
 
 

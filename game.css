@@ -12,6 +12,8 @@
 .edge-bar{
     background-color: rgba(10, 90, 200, 0.1);
     transition: 1s;
+    border-radius: 10px;
+    opacity: 0;
 } 
 
 .center-bar{
@@ -51,6 +53,7 @@
     border: none;
     outline: none;
     transition: 0.2s;
+    border-radius: 10px;
 } 
 .bonus:hover{background-color: rgba(151, 100, 244, 0.5);}
 .bonus:active{background-color:rgba(151, 100, 244, 0.9);}
@@ -67,7 +70,7 @@
 .shkala{
     width: 90%;
     height: 15px;
-    background-color: rgb(113, 113, 113);
+    background-color: rgba(113, 113, 113, 0.5);
     display: flex;
     align-items: center;
     padding-left: 10px;
