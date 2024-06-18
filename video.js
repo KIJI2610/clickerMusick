@@ -18,7 +18,7 @@ setInterval(() => {
     }
     else{
         fon.play()
-        container.style.backgroundColor = 'rgba(0, 0, 0, 0.4)'
+        container.style.backgroundColor = 'rgba(0, 0, 0, 0.7)'
         strim = false
     }
 },1500)
