@@ -81,8 +81,10 @@
     height: 30%;
     width: 0%;
     background: rgb(63,94,251);
-    background: linear-gradient(285deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);;
+    background: linear-gradient(285deg, rgb(108, 133, 255) 0%, rgb(255, 125, 151) 100%);;
     border-radius: 20px;
+    transition: 300ms;
+    box-shadow: 0 0 20px 5px rgba(52, 152, 219, 0.7);
 }
 .shkala-container{
     width: 100%;
