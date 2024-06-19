@@ -6,6 +6,15 @@ let start_game_lvl = (localStorage.getItem('start_game_lvl') === null)?(0):(Numb
 let current_lvl_max_exp = (localStorage.getItem('current_lvl_max_exp') === null)?(100):(Number(localStorage.getItem('current_lvl_max_exp')))
 let len_shkala_visual = (localStorage.getItem('len_shkala_visual') === null)?(0):(Number(localStorage.getItem('len_shkala_visual')))
 
+function checkPercentage(variable1, variable2) {
+    for (let percent = 1; percent <= 100; percent++) {
+      if (variable2 === variable1 * (percent / 100)) {
+        return percent;
+      }
+    }
+    return null;
+  }
+
 center_bar.addEventListener('click', () => {
     experience_num++
 
@@ -16,16 +25,15 @@ center_bar.addEventListener('click', () => {
         }, 0)
     }
 
-    // if(experience_num === current_lvl_max_exp){
-    //     exp.style.width = `${}%`
-    // }
-
+    if(checkPercentage !== null){
+        exp.style.width = `${checkPercentage(current_lvl_max_exp, experience_num)}%`
+    }
     
     if(current_lvl_max_exp === experience_num){
         start_game_lvl++; localStorage.setItem('start_game_lvl', start_game_lvl); lvl.textContent = start_game_lvl
         experience_num = 0; localStorage.setItem('experience_num', experience_num); exp_num.textContent = experience_num
         current_lvl_max_exp *= 10; localStorage.setItem('current_lvl_max_exp', current_lvl_max_exp)
-        
+        exp.style.width = '0%'
     }
 })
 
