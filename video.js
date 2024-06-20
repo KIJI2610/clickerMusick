@@ -7,10 +7,10 @@ fon.pause()
 
 setInterval(() => {
     if(!strim){
-        edge_bar.forEach(element => {
-            element.style.backgroundColor = 'rgba(10, 90, 200, 0.1)'
-            element.style.opacity = 0
-        })
+        // edge_bar.forEach(element => {
+        //     element.style.backgroundColor = 'rgba(10, 90, 200, 0.1)'
+        //     element.style.opacity = 0
+        // })
         container.style.backgroundColor = 'rgba(0, 0, 0, 1)'
         setTimeout(() => {
             fon.pause()
@@ -25,8 +25,7 @@ setInterval(() => {
 
 center_bar.addEventListener('click', () => {
     edge_bar.forEach(element => {
-        element.style.backgroundColor = 'rgba(100, 100, 200, 0.3)'
-        element.style.opacity = 100
+        element.classList.add('edge-bar-run')
     })
     strim = true
     fon.play()

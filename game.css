@@ -11,10 +11,17 @@
 
 .edge-bar{
     background-color: rgba(10, 90, 200, 0.1);
-    transition: 1s;
+    transition: 3s;
     border-radius: 10px;
     opacity: 0;
 } 
+.edge-bar-run{
+    box-shadow: 0 0 0 1px pink;
+    opacity: 100;
+}
+.edge-bar-run .bonus{
+    box-shadow: 0 0 0 1px rgb(157, 155, 255);
+}
 
 .center-bar{
     display: grid;
