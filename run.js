@@ -7,6 +7,6 @@ auto2_price.textContent = price.clickAuto2
 auto3_price.textContent = price.clickAuto3
 exp_num.textContent = experience_num
 lvl.textContent = start_game_lvl
-exp.style.width = `${checkPercentage(current_lvl_max_exp, experience_num)}%`
+exp.style.width = `${exp_width}%`
 
 
