@@ -37,9 +37,11 @@
     user-select: none;
     /* background-color: rgb(153, 99, 99); */
     text-align: center;
+    padding: 20px;
 }
 .count{
     font-size: 64pt;
+    word-break: break-all;
 }
 .left-bar{
     display: grid;

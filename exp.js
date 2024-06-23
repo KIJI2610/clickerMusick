@@ -40,5 +40,12 @@ center_bar.addEventListener('click', () => {
         current_lvl_max_exp *= 10; localStorage.setItem('current_lvl_max_exp', current_lvl_max_exp)
         exp.style.width = '0%'; exp_width = 0; localStorage.setItem('exp_width', exp_width)
     }
+
+    if(exp.style.width === '0%'){
+      exp.style.boxShadow = 'none'
+    }
+    else{
+      exp.style.boxShadow = '0 0 20px 5px rgba(52, 152, 219, 0.7)'
+    }
 })
 
