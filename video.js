@@ -2,15 +2,12 @@ const fon = document.getElementById('fon')
 const center_bar = document.getElementById('center-bar')
 const edge_bar = document.querySelectorAll('.edge-bar')
 const container = document.querySelector('.container')
+
 let strim = false
 fon.pause()
 
 setInterval(() => {
     if(!strim){
-        // edge_bar.forEach(element => {
-        //     element.style.backgroundColor = 'rgba(10, 90, 200, 0.1)'
-        //     element.style.opacity = 0
-        // })
         container.style.backgroundColor = 'rgba(0, 0, 0, 1)'
         setTimeout(() => {
             fon.pause()
