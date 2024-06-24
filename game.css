@@ -6,7 +6,6 @@
 .bar{
     height: 100%;
     width: 33%;
-
 }
 
 .edge-bar{
@@ -34,10 +33,11 @@
 }
 
 .center-bar-container{
+    width: 100%;
     user-select: none;
     /* background-color: rgb(153, 99, 99); */
     text-align: center;
-    padding: 20px;
+    /* padding: 20px; */
 }
 .count{
     font-size: 64pt;
@@ -85,6 +85,7 @@
     padding-left: 5px;
     padding-right:5px ;
     border-radius: 20px;
+    margin: 0 auto;
 }
 .exp{
     height: 30%;
@@ -97,10 +98,14 @@
 }
 .shkala-container{
     width: 100%;
-    display: grid;
+    display: block;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 1000;
     font-size: 16pt;
-    /* background-color: azure; */
+    /* background-color: rgba(240, 255, 255, 0.367); */
+    justify-content: center;
+}
+.location-container{
+    opacity: 0;
 }
