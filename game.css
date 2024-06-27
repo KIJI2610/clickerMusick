@@ -103,6 +103,8 @@
     font-family: 'Courier New', Courier, monospace;
     font-weight: 1000;
     font-size: 16pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
     /* background-color: rgba(240, 255, 255, 0.367); */
     justify-content: center;
 }

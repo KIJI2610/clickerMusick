@@ -9,10 +9,11 @@ exp_num.textContent = experience_num
 lvl.textContent = start_game_lvl
 exp.style.width = `${exp_width}%`
 
-
 if(exp.style.width === '0%'){
     exp.style.boxShadow = 'none'
   }
   else{
     exp.style.boxShadow = '0 0 20px 5px rgba(52, 152, 219, 0.7)'
 }
+const right_bar = document.getElementById('right-bar')
+right_bar.hidden = true

@@ -1,10 +1,11 @@
 let price = {
-    clickPlus1: (localStorage.getItem('clickPlus1') === null)?(100):(Number(localStorage.getItem('clickPlus1'))),
-    clickAuto1: (localStorage.getItem('clickAuto1') === null)?(300):(Number(localStorage.getItem('clickAuto1'))),
-    clickPlus2: (localStorage.getItem('clickPlus2') === null)?(600):(Number(localStorage.getItem('clickPlus2'))),
-    clickAuto2: (localStorage.getItem('clickAuto2') === null)?(1000):(Number(localStorage.getItem('clickAuto2'))),
-    clickPlus3: (localStorage.getItem('clickPlus3') === null)?(2500):(Number(localStorage.getItem('clickPlus3'))),
-    clickAuto3: (localStorage.getItem('clickAuto3') === null)?(5000):(Number(localStorage.getItem('clickAuto3'))),
+    clickPlus1: global_arr_data_1[0],
+    clickAuto1: global_arr_data_1[1],
+    clickPlus2: global_arr_data_1[2],
+    clickAuto2: global_arr_data_1[3],
+    clickPlus3: global_arr_data_1[4],
+    clickAuto3: global_arr_data_1[5],
+    
 }
 
 
